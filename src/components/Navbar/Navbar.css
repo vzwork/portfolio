@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-link {
+  text-decoration: none;
+  font-size: x-large;
+  padding: .5rem;
+}
+
+#Navbar {
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%; }
+  .theme--default #Navbar {
+    background-color: #222;
+    color: #bbb; }
+  .theme--light #Navbar {
+    background-color: #fff;
+    color: #000; }
+  #Navbar .navbar {
+    display: flex;
+    justify-content: center; }
