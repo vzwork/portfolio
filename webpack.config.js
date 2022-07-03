@@ -10,7 +10,7 @@ module.exports = {
   mode: 'development',
   entry: './src/index.js',
   output: {
-    path: __dirname + '/dist',
+    path: __dirname + '/dist/public',
     filename: 'bundle.js',
   },
   module: {
