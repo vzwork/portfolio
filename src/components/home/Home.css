@@ -1,0 +1,66 @@
+#Home {
+  transition: all 0.5s ease-in-out;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; }
+  .theme--default #Home {
+    background-color: #222;
+    color: #bbb; }
+  .theme--light #Home {
+    background-color: #fff;
+    color: #000; }
+  #Home .content {
+    padding: 80px 20px; }
+    #Home .content .homeSection:nth-child(even) {
+      flex-direction: row-reverse; }
+    #Home .content .homeSection:nth-child(1) {
+      animation: fadein;
+      animation-duration: 1.5s;
+      animation-delay: 0s;
+      animation-fill-mode: backwards; }
+    #Home .content .homeSection:nth-child(2) {
+      animation: fadein;
+      animation-duration: 1.5s;
+      animation-delay: 0.5s;
+      animation-fill-mode: backwards; }
+    #Home .content .homeSection:nth-child(3) {
+      animation: fadein;
+      animation-duration: 1.5s;
+      animation-delay: 1s;
+      animation-fill-mode: backwards; }
+    #Home .content .homeSection:nth-child(4) {
+      animation: fadein;
+      animation-duration: 1.5s;
+      animation-delay: 1.5s;
+      animation-fill-mode: backwards; }
+    #Home .content .homeSection:nth-child(5) {
+      animation: fadein;
+      animation-duration: 1.5s;
+      animation-delay: 2s;
+      animation-fill-mode: backwards; }
+    #Home .content .homeSection:nth-child(6) {
+      animation: fadein;
+      animation-duration: 1.5s;
+      animation-delay: 2.5s;
+      animation-fill-mode: backwards; }
+    #Home .content .homeSection:nth-child(7) {
+      animation: fadein;
+      animation-duration: 1.5s;
+      animation-delay: 3s;
+      animation-fill-mode: backwards; }
+    #Home .content .homeSection:nth-child(8) {
+      animation: fadein;
+      animation-duration: 1.5s;
+      animation-delay: 3.5s;
+      animation-fill-mode: backwards; }
+    #Home .content .homeSection:nth-child(9) {
+      animation: fadein;
+      animation-duration: 1.5s;
+      animation-delay: 4s;
+      animation-fill-mode: backwards; }
+    #Home .content .homeSection:nth-child(10) {
+      animation: fadein;
+      animation-duration: 1.5s;
+      animation-delay: 4.5s;
+      animation-fill-mode: backwards; }
