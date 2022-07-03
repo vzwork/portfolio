@@ -14,5 +14,9 @@
     height: 40px; }
     .theme--default .buttonTheme .biAdjust {
       color: #bbb; }
+    .theme--default .buttonTheme .biAdjust :hover {
+      color: orange; }
     .theme--light .buttonTheme .biAdjust {
       color: #000; }
+    .theme--light .buttonTheme .biAdjust :hover {
+      color: green; }
