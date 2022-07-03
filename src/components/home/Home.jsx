@@ -31,22 +31,6 @@ const Home = () => {
               "Yandex Practicum Data Science Plus \n Data Analysis with pandas"
             }
           />
-
-          <HomeSection
-            img={nscc}
-            heading={"Education"}
-            info={
-              "North Seattle Community College \n BS Application Development"
-            }
-          />
-
-          <HomeSection
-            img={yandex}
-            heading={"Education"}
-            info={
-              "Yandex Practicum Data Science Plus \n Data Analysis with pandas"
-            }
-          />
         </div>
       </div>
     </div>

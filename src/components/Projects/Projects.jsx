@@ -31,22 +31,6 @@ const Projects = () => {
               "Yandex Practicum Data Science Plus \n Data Analysis with pandas"
             }
           />
-
-          <ProjectPreview
-            img={nscc}
-            heading={"Education"}
-            info={
-              "North Seattle Community College \n BS Application Development"
-            }
-          />
-
-          <ProjectPreview
-            img={yandex}
-            heading={"Education"}
-            info={
-              "Yandex Practicum Data Science Plus \n Data Analysis with pandas"
-            }
-          />
         </div>
       </div>
     </div>

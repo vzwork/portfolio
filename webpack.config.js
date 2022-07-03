@@ -8,12 +8,13 @@ const htmlPlugin = new HtmlWebPackPlugin({
 });
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
   entry: './src/index.js',
   devtool: 'source-map',
   output: {
     path: __dirname + '/dist/public',
     filename: 'bundle.js',
+    clean: true,
   },
   module: {
     rules: [
@@ -44,9 +45,6 @@ module.exports = {
   },
   plugins: [
     htmlPlugin,
-    new SourceMapDevToolPlugin({
-      filename: "[file].map"
-    }),
   ],
   devServer: {
     static: {
