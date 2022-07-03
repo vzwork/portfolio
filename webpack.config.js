@@ -1,5 +1,4 @@
 const path = require('path');
-const { SourceMapDevToolPlugin } = require("webpack");
 
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const htmlPlugin = new HtmlWebPackPlugin({
@@ -10,11 +9,9 @@ const htmlPlugin = new HtmlWebPackPlugin({
 module.exports = {
   mode: 'development',
   entry: './src/index.js',
-  devtool: 'source-map',
   output: {
     path: __dirname + '/dist/public',
     filename: 'bundle.js',
-    clean: true,
   },
   module: {
     rules: [
@@ -34,7 +31,7 @@ module.exports = {
         use: [{loader: 'style-loader'},{ loader: 'css-loader'}]
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.svg$/,
         include: [__dirname + '/src'],
         use: [{loader: 'file-loader'}]
       }
@@ -43,9 +40,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx']
   },
-  plugins: [
-    htmlPlugin,
-  ],
+  plugins: [htmlPlugin],
   devServer: {
     static: {
       directory: path.join(__dirname, 'dist'),
