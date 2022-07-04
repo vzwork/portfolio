@@ -7,8 +7,8 @@ const HomeSection = (props) => {
       <img src={props.img} />
       <hr/>
       <div className="stats">
-        <h1 className="heading">{props.heading}</h1>
-        <div className="info new-line">{props.info}</div>
+        <h1 className="heading themed">{props.heading}</h1>
+        <div className="info new-line themed">{props.info}</div>
       </div>
     </div>
   );

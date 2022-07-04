@@ -9,7 +9,7 @@ import floop from './floop.jpg';
 function Home() {
   return (
     <div id="Home">
-    <div className="home themed">
+    <div className="home">
       <div className="content">
         <HomeSection
           img={vlad}
@@ -18,7 +18,7 @@ function Home() {
         />
         <HomeSection
           img={floop}
-          heading={"Internt at Floop"}
+          heading={"Intern at Floop"}
           info={"Implemented Features \n Refractored code"}
         />
         <HomeSection
