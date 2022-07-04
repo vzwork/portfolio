@@ -10,4 +10,14 @@
 .homeSection .heading {
   padding-bottom: 1rem; }
 .homeSection .info {
+  padding: 0.3rem;
   font-size: 0.8rem; }
+.homeSection .date {
+  padding-top: 1rem;
+  padding-left: 0.3rem;
+  font-size: 0.8rem;
+  left: 0;}
+.theme--default .date {
+  color: rgb(116, 83, 22);}
+.theme--light .date {
+  color: rgb(31, 90, 31);}

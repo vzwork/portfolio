@@ -15,21 +15,25 @@ function Home() {
           img={vlad}
           heading={"Vladislav Zakharov"}
           info={"Full Stack Developer \nData Scientist \nvladislav.zakharov.work@gmail.com"}
+          date={"2001 - still_alive"}
         />
         <HomeSection
           img={floop}
           heading={"Intern at Floop"}
-          info={"Implemented Features \nRefractored code"}
+          info={"Implemented Web App Features"}
+          date={"2022 May - 2022 Jun"}
         />
         <HomeSection
           img={nscc}
-          heading={"College"}
+          heading={"North Seattle College"}
           info={"Application Development BS"}
+          date={"2019 Sep - 2023 Jun"}
         />
         <HomeSection
           img={yandex}
           heading={"Yandex"}
           info={"Data Science Bootcamp"}
+          date={"2021 Dec - 2023 May"}
         />
       </div>
     </div>

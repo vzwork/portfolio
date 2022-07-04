@@ -9,6 +9,7 @@ const HomeSection = (props) => {
       <div className="stats">
         <h1 className="heading themed">{props.heading}</h1>
         <div className="info new-line themed">{props.info}</div>
+        <div className="date new-line themed">{props.date}</div>
       </div>
     </div>
   );
