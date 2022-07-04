@@ -1,0 +1,27 @@
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 100;}
+}
+
+#Home .content .homeSection:nth-child(even) {
+  flex-direction: row-reverse; }
+#Home .content .homeSection:nth-child(1) {
+  animation: fadein;
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+  animation-fill-mode: backwards; }
+#Home .content .homeSection:nth-child(2) {
+  animation: fadein;
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards; }
+#Home .content .homeSection:nth-child(3) {
+  animation: fadein;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards; }
+#Home .content .homeSection:nth-child(4) {
+  animation: fadein;
+  animation-duration: 1.5s;
+  animation-delay: 1.5s;
+  animation-fill-mode: backwards; }
