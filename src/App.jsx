@@ -31,10 +31,12 @@ class App extends Component {
            <BiAdjust className="biAdjust btn"/>
           </button>
           <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/Projects" element={<Projects />} />
-          </Routes>
+          <div className='mg-top-40'>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/Projects" element={<Projects />} />
+            </Routes>
+          </div>
         </BrowserRouter>
       </div>
       </div>
