@@ -1,0 +1,13 @@
+.homeSection {
+  display: flex;
+  padding: 1rem; }
+  .homeSection img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%; }
+  .homeSection .stats {
+    padding: 1rem; }
+  .homeSection .heading {
+    padding-bottom: 1rem; }
+  .homeSection .info {
+    font-size: 0.8rem; }

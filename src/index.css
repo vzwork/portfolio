@@ -19,6 +19,19 @@ a {
 hr {
   margin: 1rem 2rem; }
 
+.container {
+  width: 900px;
+}
+
+.wide {
+  width: 100vw;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 .pd-top-50{
   padding-top: 50px;
 }

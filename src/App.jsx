@@ -25,20 +25,22 @@ class App extends Component {
   render() {
     return (
       <div id="App">
-      <div className={(this.state.light ? 'theme--light' : 'theme--default')}>
-        <BrowserRouter>
-          <button className="buttonTheme" onClick={this.changeTheme}>
-           <BiAdjust className="biAdjust btn"/>
-          </button>
-          <Navbar />
-          <div className='pd-top-50 themed'>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/Projects" element={<Projects />} />
-            </Routes>
-          </div>
-        </BrowserRouter>
-      </div>
+        <div className={'wide ' + (this.state.light ? 'theme--light' : 'theme--default')}>
+          <BrowserRouter>
+            <button className="buttonTheme" onClick={this.changeTheme}>
+            <BiAdjust className="biAdjust btn"/>
+            </button>
+            <Navbar />
+            <div className='wide center pd-top-50 themed'>
+              <div className='container'>
+                <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/Projects" element={<Projects />} />
+                </Routes>
+              </div>
+            </div>
+          </BrowserRouter>
+        </div>
       </div>
     )
   }
