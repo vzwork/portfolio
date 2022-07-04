@@ -3,8 +3,10 @@
   to {opacity: 100;}
 }
 
-#Home .content .homeSection:nth-child(even) {
-  flex-direction: row-reverse; }
+@media screen and (min-width: 550px) {
+  #Home .content .homeSection:nth-child(even) {
+    flex-direction: row-reverse; }
+}
 #Home .content .homeSection:nth-child(1) {
   animation: fadein;
   animation-duration: 1.5s;

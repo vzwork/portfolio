@@ -3,7 +3,7 @@ import React from "react";
 
 const HomeSection = (props) => {
   return (
-    <div className="homeSection">
+    <div className="homeSection themed">
       <img src={props.img} />
       <hr/>
       <div className="stats">

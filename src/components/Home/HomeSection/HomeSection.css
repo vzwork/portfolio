@@ -1,3 +1,10 @@
+@media screen and (max-width: 550px) {
+  .homeSection {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .homeSection {
   display: flex;
   padding: 1rem; }
