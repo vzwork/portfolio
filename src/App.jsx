@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { BiAdjust } from "react-icons/bi";
 
-
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
@@ -29,7 +28,7 @@ class App extends Component {
       <div className={(this.state.light ? 'theme--light' : 'theme--default')}>
         <BrowserRouter>
           <button className="buttonTheme" onClick={this.changeTheme}>
-           <BiAdjust className="biAdjust"/>
+           <BiAdjust className="biAdjust btn"/>
           </button>
           <Navbar />
           <Routes>

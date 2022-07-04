@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <div id='Navbar'>
-      <div className='navbar'>
-        <Link to='/' className='navbar-link btn'>
+      <div className='navbar themed'>
+        <Link to='/' className='navbar-link themed btn'>
           Home
         </Link>
-        <Link to='/Projects' className='navbar-link btn'>
+        <Link to='/Projects' className='navbar-link themed btn'>
           Projects
         </Link>
       </div>

@@ -2,7 +2,8 @@
 
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0; 
+  transition: all 0.2s ease-in-out;}
 
 html,
 body {
@@ -18,25 +19,19 @@ a {
 hr {
   margin: 1rem 2rem; }
 
-.btn {
-  border-bottom: solid 2px;
-  text-decoration: none;
-  padding: 0.4rem 0;
-  margin: 0 0.5rem;
-  cursor: pointer;
-  font-family: "Comfortaa", cursive;
-  font-size: 1.3rem;
-  font-weight: 500;
-  transition: all 0.2s ease-in-out; }
-  .theme--default .btn {
-    background-color: #222;
-    color: #bbb; }
-  .theme--default .btn:hover {
-    color: orange;
-  }
-  .theme--light .btn {
-    background-color: #fff;
-    color: #000; }
-  .theme--light .btn:hover {
-    color: green;
-  }
+.theme--default .themed {
+  background-color: #222;
+  color: #bbb;}
+
+.theme--light .themed {
+  background-color: #ddd;
+  color: #000;}
+
+.theme--default .btn {
+  color: #bbb; }
+.theme--default .btn:hover {
+  color: orange;}
+.theme--light .btn {
+  color: #000; }
+.theme--light .btn:hover {
+  color: green;}
