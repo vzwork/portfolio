@@ -56,3 +56,7 @@ hr {
   color: #000; }
 .theme--light .btn:hover {
   color: green;}
+
+div {
+  white-space: pre-wrap;
+}

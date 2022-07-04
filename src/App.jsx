@@ -1,7 +1,9 @@
 import './App.css';
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { BiAdjust } from "react-icons/bi";
+import { BiAdjust } from 'react-icons/bi';
+import { VscGithub } from 'react-icons/vsc';
+import { TiSocialLinkedinCircular } from 'react-icons/ti';
 
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
@@ -30,6 +32,12 @@ class App extends Component {
             <button className="buttonTheme" onClick={this.changeTheme}>
             <BiAdjust className="biAdjust btn"/>
             </button>
+            <a href='https://github.com/vzwork' className='githubLink'>
+              <VscGithub className='githubIcon btn themed'/>
+            </a>
+            <a href='https://www.linkedin.com/in/vzwork/' className='linkedinLink'>
+              <TiSocialLinkedinCircular className='linkedinIcon btn themed'/>
+            </a>
             <Navbar />
             <div className='wide tall center pd-top-50 themed'>
               <div className='container'>

@@ -14,12 +14,12 @@ function Home() {
         <HomeSection
           img={vlad}
           heading={"Vladislav Zakharov"}
-          info={"Full Stack Developer \n Data Scientist"}
+          info={"Full Stack Developer \nData Scientist \nvladislav.zakharov.work@gmail.com"}
         />
         <HomeSection
           img={floop}
           heading={"Intern at Floop"}
-          info={"Implemented Features \n Refractored code"}
+          info={"Implemented Features \nRefractored code"}
         />
         <HomeSection
           img={nscc}
