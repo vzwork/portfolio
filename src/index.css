@@ -48,6 +48,12 @@ hr {
   background-color: #ddd;
   color: #000;}
 
+.theme--default .themed-color {
+  color: #bbb;}
+
+.theme--light .themed-color {
+  color: #000;}
+
 .theme--default .btn {
   color: #bbb; }
 .theme--default .btn:hover {

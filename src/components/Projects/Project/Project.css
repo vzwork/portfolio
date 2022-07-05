@@ -1,0 +1,17 @@
+.theme--default .project {
+  background: #444;
+}
+.theme--default .project:hover {
+  background: rgb(76, 61, 24);
+}
+.theme--light .project {
+  background: #999;
+}
+.theme--light .project:hover {
+  background: rgb(83, 121, 87);
+}
+
+.project {
+  padding: 2rem;
+  border-radius: 3rem;
+}
